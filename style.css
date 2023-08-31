@@ -1,0 +1,179 @@
+html {
+  height: 100%;
+  width: 100%;
+
+}
+
+body {
+  margin: 0;
+  font-family: serif;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  border-color: skyblue
+}
+
+header {
+  font-family: serif;
+  font-size: 80px;
+  color: white;
+  background-color: black;
+  padding: 30px;
+  border-style: solid;
+  border-color: skyblue;
+}
+
+nav {
+  background-color: black;
+  margin: 0px, 20px, 0px;
+  border-style: solid;
+  border-color: skyblue;
+}
+
+button {
+  color: darkorchid;
+  background-color: white;
+  font-family: serif;
+  font-size: 20px;
+}
+
+button:hover {
+  /* I used https://cssgradient.io/ to learn how to get a color gradient
+  on the buttons */
+  background: rgb(151, 8, 161);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  font-size: 40px;
+}
+
+p {
+  /* learn how to make a small box */
+  text-align: center;
+  font-weight: bold;
+  font-size: 75px;
+  background-color: black;
+  border: 2px solid skyblue;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+}
+
+p3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  background-color: black;
+  border: 2px solid palevioletred;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  margin: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.center {
+  text-align: center;
+  flex: 20%;
+}
+
+.left {
+  text-align: left;
+  flex: 40%;
+}
+
+.right {
+  text-align: right;
+  flex: 40%;
+}
+
+#Hey {
+  font-size: 200px;
+}
+
+#NavSeparate {
+  margin-bottom: 100px;
+}
+
+#Experience {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Projects {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#PerlinNoise {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Separate {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+#LargerRow {
+  margin-top: 100px;
+  margin-bottom: 600px;
+}
+
+#AboutMe {
+
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#PokerProject {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#p5proj {
+  height: 446px;
+  width: 605px;
+}
+
+#me {
+  width: 100px;
+  height: 100px;
+}
+
+#me2 {
+  width: 100px;
+  height: 100px;
+}
+
+#fish {
+  width: 100px;
+  height: 100px;
+}
+
+#pokerProjPic {
+  height: 350px;
+  width: 300px;
+  margin: 15px;
+}
+
+#pokerProjPic2 {
+  height: 350px;
+  width: 300px;
+  margin: 15px;
+}
+
+#OtherProjects {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
